@@ -4,7 +4,7 @@ import tensorflow as tf
 
 class FacialExpressionModel(object):
 
-    EMOTIONS_LIST = ["Angry", "Disgust", "Fear", "Happy", "Neutral","Sad","Surprised"]
+    EMOTIONS_LIST = ["Angry", "Disgust", "Fear", "Happy", "Neutral","Sad","Surprised","Sleepy"]
     
     def __init__(self, model_json_file, model_weights_file):
         with open(model_json_file,"r") as json_file:
